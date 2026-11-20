@@ -1,0 +1,66 @@
+{
+  "name": "@kui-shell/core",
+  "version": "13.1.0",
+  "description": "An Electron-based shell for cloud-native development",
+  "homepage": "https://github.com/IBM/kui#readme",
+  "license": "Apache-2.0",
+  "author": "Nick Mitchell",
+  "bugs": {
+    "url": "https://github.com/IBM/kui/issues/new"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IBM/kui.git"
+  },
+  "keywords": [
+    "OpenWhisk",
+    "CLI",
+    "UI",
+    "kubernetes",
+    "visualization",
+    "serverless"
+  ],
+  "contributors": [
+    "Mengting Yan"
+  ],
+  "main": "dist/index.js",
+  "typedocMain": "src/index.ts",
+  "module": "mdist/index.js",
+  "types": "mdist/index.d.ts",
+  "sideEffects": [
+    "*.css",
+    "*.scss"
+  ],
+  "bin": {
+    "kui": "bin/kui"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.7",
+    "@types/fs-extra": "^11.0.1",
+    "@types/mkdirp": "^1.0.2",
+    "@types/tmp": "^0.2.3",
+    "@types/uuid": "^9.0.1",
+    "@types/yargs-parser": "^21.0.0"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "columnify": "^1.6.0",
+    "debug": "^4.3.4",
+    "fs-extra": "^11.1.1",
+    "mkdirp": "^3.0.0",
+    "pretty-ms": "^8.0.0",
+    "slash": "^5.0.0",
+    "tmp": "^0.2.1",
+    "trie-search": "^1.4.1",
+    "uuid": "^9.0.0",
+    "yargs-parser": "^21.1.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "89de9f78e8a1a2bdd29d2e17d7c608ab006c6d32",
+  "overrides": {
+    "colors": "1.40.0"
+  }
+}
+
