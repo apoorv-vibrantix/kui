@@ -1,0 +1,26 @@
+[Kui API Documentation - v11.0.0](../README.md) / [@kui-shell/core](../modules/kui_shell_core.md) / ParsedOptions
+
+# Interface: ParsedOptions
+
+[@kui-shell/core](../modules/kui_shell_core.md).ParsedOptions
+
+## Indexable
+
+▪ [key: `string`]: `string` \| `boolean` \| `number` \| `string`[]
+
+## Table of contents
+
+### Properties
+
+- [\_](kui_shell_core.ParsedOptions.md#_)
+
+## Properties
+
+### \_
+
+• `Optional` **\_**: `string`[]
+
+#### Defined in
+
+[packages/core/src/models/command.ts:128](https://github.com/kubernetes-sigs/kui/blob/kui/packages/core/src/models/command.ts#L128)
+
